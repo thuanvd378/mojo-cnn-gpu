@@ -1,0 +1,109 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build test.cpp (MNIST)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I../mojo/",
+                "-std=c++11",
+                "-fopenmp",
+                "-O3",
+                "-DMOJO_OMP",
+                "-DMOJO_AVX",
+                "-msse4",
+                "-mavx",
+                "test.cpp",
+                "-o",
+                "test.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/examples"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build test.cpp with OpenMP and AVX support"
+        },
+        {
+            "label": "Build train_mnist.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I../mojo/",
+                "-std=c++11",
+                "-fopenmp",
+                "-O3",
+                "-DMOJO_OMP",
+                "-DMOJO_AVX",
+                "-msse4",
+                "-mavx",
+                "train_mnist.cpp",
+                "-o",
+                "train_mnist.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/examples"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build train_mnist.cpp with OpenMP and AVX support"
+        },
+        {
+            "label": "Build train_cifar.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I../mojo/",
+                "-std=c++11",
+                "-fopenmp",
+                "-O3",
+                "-DMOJO_OMP",
+                "-DMOJO_AVX",
+                "-msse4",
+                "-mavx",
+                "train_cifar.cpp",
+                "-o",
+                "train_cifar.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/examples"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build train_cifar.cpp with OpenMP and AVX support"
+        },
+        {
+            "label": "Build test.cpp (NO AVX - for older CPUs)",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-I../mojo/",
+                "-std=c++11",
+                "-fopenmp",
+                "-O3",
+                "-DMOJO_OMP",
+                "test.cpp",
+                "-o",
+                "test.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/examples"
+            },
+            "group": "build",
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Build without AVX if CPU doesn't support it"
+        }
+    ]
+}

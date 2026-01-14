@@ -1,0 +1,127 @@
+﻿  test.cpp
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(178,2): error C3861: '_mm256_zeroupper': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,15): error C2146: syntax error: missing ';' before identifier 'f0'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,15): error C2065: 'f0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,63): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,70): error C2146: syntax error: missing ';' before identifier 'f1'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,70): error C2065: 'f1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180,75): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,8): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,15): error C2146: syntax error: missing ';' before identifier 'f2'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,15): error C2065: 'f2': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,63): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(180): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,70): error C2146: syntax error: missing ';' before identifier 'f3'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,70): error C2065: 'f3': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(181,75): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(185,10): error C2146: syntax error: missing ';' before identifier 'a'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(185,10): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(185,13): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(185,17): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(187,3): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(187,7): error C3861: '_mm256_load_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(187,29): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(187,48): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(187,51): error C2065: 'f0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(187,34): error C3861: '_mm256_mul_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,3): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,7): error C3861: '_mm256_load_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,34): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,53): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,56): error C2065: 'f1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,39): error C3861: '_mm256_mul_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,61): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,80): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,84): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(188,66): error C3861: '_mm256_add_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,3): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,7): error C3861: '_mm256_load_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,34): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,53): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,56): error C2065: 'f2': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,39): error C3861: '_mm256_mul_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,61): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,80): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,84): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(189,66): error C3861: '_mm256_add_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,3): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,7): error C3861: '_mm256_load_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,34): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,53): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,56): error C2065: 'f3': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,39): error C3861: '_mm256_mul_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,61): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,80): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,84): error C2065: 'c1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(190,66): error C3861: '_mm256_add_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(193,3): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(193,7): error C3861: '_mm256_load_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(194,3): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(194,22): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(194,26): error C2065: 'a': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(194,8): error C3861: '_mm256_add_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(195,29): error C2065: 'c0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(195,3): error C3861: '_mm256_stream_ps': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(198,2): error C3861: '_mm256_zeroupper': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(203,2): error C3861: '_mm256_zeroupper': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,15): error C2146: syntax error: missing ';' before identifier 'f0'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,15): error C2065: 'f0': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,63): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,70): error C2146: syntax error: missing ';' before identifier 'f1'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,70): error C2065: 'f1': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205,75): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,8): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,15): error C2146: syntax error: missing ';' before identifier 'f2'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,15): error C2065: 'f2': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,63): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,70): error C2146: syntax error: missing ';' before identifier 'f3'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,70): error C2065: 'f3': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(206,75): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,8): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,15): error C2146: syntax error: missing ';' before identifier 'f4'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,15): error C2065: 'f4': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,63): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,70): error C2146: syntax error: missing ';' before identifier 'f5'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,70): error C2065: 'f5': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(207,75): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,8): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,15): error C2146: syntax error: missing ';' before identifier 'f6'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,15): error C2065: 'f6': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,70): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,63): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,70): error C2146: syntax error: missing ';' before identifier 'f7'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,70): error C2065: 'f7': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(208,75): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(209,15): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(209,8): error C2086: 'const int __m256': redefinition
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(205): message : see declaration of '__m256'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(209,15): error C2146: syntax error: missing ';' before identifier 'f8'
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(209,15): error C2065: 'f8': undeclared identifier
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(209,20): error C3861: '_mm256_broadcast_ss': identifier not found
+E:\C++ project\Pararell Programming\mojo-cnn-master\mojo\core_math.h(209,54): fatal error C1003: error count exceeds 100; stopping compilation
