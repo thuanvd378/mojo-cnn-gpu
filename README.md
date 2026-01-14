@@ -35,7 +35,7 @@ The project is structured into two distinct execution backends. The **Legacy CPU
 ```mermaid
 graph TD
     subgraph "Application Layer"
-        UserApp[User Application (main.cpp)]
+        UserApp["User Application (main.cpp)"]
     end
 
     subgraph "Mojo Framework"
@@ -45,14 +45,14 @@ graph TD
         
         subgraph "CPU Backend (Legacy)"
             MojoCPU[mojo::network]
-            LayersCPU[CPU Layers (OpenMP)]
+            LayersCPU["CPU Layers (OpenMP)"]
             SolverCPU[CPU Solvers]
         end
         
         subgraph "GPU Backend (New)"
-            MojoGPU[mojo::Network (GPU)]
+            MojoGPU["mojo::Network (GPU)"]
             LayersGPU[cuDNN Layers]
-            SolverGPU[CUDA Optimizers (Adam/SGD)]
+            SolverGPU["CUDA Optimizers (Adam/SGD)"]
             MemMan[Unified Memory Management]
         end
     end
